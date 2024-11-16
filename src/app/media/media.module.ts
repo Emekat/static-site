@@ -12,6 +12,10 @@ import { AlbumsComponent } from './albums/albums.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    PhotosComponent,
+    AlbumsComponent
   ]
 })
 export class MediaModule { }
